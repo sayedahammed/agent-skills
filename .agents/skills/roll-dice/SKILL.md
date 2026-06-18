@@ -1,9 +1,9 @@
 ---
 name: roll-dice
-description: Roll dise using a random number generator. Use when asked to roll a die. (d6, d20l etc.), roll dise, or generate a random dise roll.
+description: Roll dise using a random number generator. Use when asked to roll a die. (d6, d20l etc.), roll dice, or generate a random dice roll.
 ---
 
-To roll a die, use the following command that generates a radom number from 1 to the given number of sides:
+To roll a die, use the following command that generates a random number from 1 to the given number of sides:
 
 ```bash
 echo $((RANDOM % <sides> + 1))
